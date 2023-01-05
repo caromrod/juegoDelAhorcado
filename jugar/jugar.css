@@ -126,6 +126,7 @@ canvas{
     font-weight: bolder;
     background-color: var(--color-amarillo);
 
+    cursor: pointer;
 }
 
 #btnCancelar{

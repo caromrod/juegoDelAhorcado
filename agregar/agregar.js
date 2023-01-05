@@ -22,7 +22,7 @@ $btnGuardar.addEventListener("click", () => {
     document.getElementById('txtTextoIngresado').value = "";
 
     //volver al inicio
-    window.location.href = "../index/index.html";
+    window.location.href = "../index.html";
 
 });
 

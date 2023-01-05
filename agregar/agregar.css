@@ -118,6 +118,7 @@ input::placeholder{
     height: 1.7cm;
     font-weight: bolder;
 
+    cursor: pointer;
 }
 
 #btnCancelar{

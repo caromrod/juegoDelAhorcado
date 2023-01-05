@@ -7,7 +7,7 @@ boton.addEventListener("click", () => {
               //sonidos para el boton
 
 
-                etiquetaAudio.setAttribute("src", "../diseño/sonidos/index.wav");
+                etiquetaAudio.setAttribute("src", "./diseño/sonidos/index.wav");
                 etiquetaAudio.play()
                 etiquetaAudio.loop = true;
 

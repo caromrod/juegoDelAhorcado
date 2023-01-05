@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Juego del ahorcado</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Carolina Mariel Rodriguez"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=device-width" />
+        <meta name="keywords" content="Ahorcado"/>
+        <link rel="stylesheet" href="./jugar.css">
+
+        <!--icono de mi pagina-->
+        <link rel="icon" type="icon/x-image" href="../diseño/img/icono.svg">
+        
+    </head>
+
+<body>
+
+    <header>
+        <a href="../index/index.html"><img src="../diseño/img/icono.svg"/></a>
+    </header>
+
+    <main>
+    <canvas></canvas>
+    <div class="main-juego">
+
+        <h1>PALABRA A DESCIFRAR</h1>
+
+
+        <h2>Ingrese una letra:</h2>
+        <input type="text"  maxlength="1" id="txtLetra"> 
+        <button type="button" id="btnProbar">Probar</button>
+        <h3>LETRAS que no van</h3>
+
+    </div>
+
+    </main>
+
+    <div class="botones">
+    <button type="button" id="btnNuevoJuego">Nuevo juego</button>
+    <button type="button" id="btnCancelar"><a href="../index/index.html">Desistir</a></button>
+
+    </div>
+   
+
+    <script src="../agregar/agregar.html"></script>
+    <script src="./jugar.js"></script>
+
+</body>
+</html>
